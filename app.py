@@ -5,7 +5,7 @@ from pathlib import Path
 from sklearn.linear_model import LinearRegression
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "housing.csv"
+DATA_PATH = BASE_DIR / "Housing.csv"
 
 st.set_page_config(
     page_title="House Price Predictor",
