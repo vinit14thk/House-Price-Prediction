@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from pathlib import PATH
 from sklearn.linear_model import LinearRegression
 
 BASE_DIR = Path(__file__).resolve().parent
