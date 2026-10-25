@@ -15,7 +15,7 @@ st.set_page_config(
 
 @st.cache_resource
 def train_model():
-    df = pd.read_csv("DATA_PATH")
+    df = pd.read_csv(DATA_PATH)
 
     df_encoded = pd.get_dummies(
         df,
