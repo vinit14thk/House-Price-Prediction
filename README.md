@@ -4,6 +4,12 @@ About the Project
 
 This project predicts house prices using machine learning techniques in Python. It explores housing data, preprocesses categorical features, trains regression models, and evaluates their performance.
 
+🚀 Live Demo
+
+Try the deployed application here: "House Price Prediction App" (https://house-price-prediction-v.streamlit.app/)
+
+Enter property details to get an estimated house price using the trained Linear Regression model.
+
 Technologies Used
 
 - Python
