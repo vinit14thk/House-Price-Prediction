@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
+BASE_DIR = Path(_file_).resolve().parent
+DATA_PATH = BASE_DIR / "housing.csv"
+
 st.set_page_config(
     page_title="House Price Predictor",
     page_icon="🏠",
@@ -11,7 +14,7 @@ st.set_page_config(
 
 @st.cache_resource
 def train_model():
-    df = pd.read_csv("housing.csv")
+    df = pd.read_csv("DATA_PATH")
 
     df_encoded = pd.get_dummies(
         df,
